@@ -1,0 +1,56 @@
+<div>
+  <img src="/assets/img/cute_burger.jpeg" width="300px" id="burger-img">
+
+  <h1>EAT-DA-BURGER!</h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+
+      <h2>Burgers to be devoured!</h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{!-- {{> burger-block devoured=true}} --}}
+     <button class="eat-burger" data-id="{{id}}" data-newdev="{{this.devoured}}">{{burger_name}}</button>
+
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
+    <div class="col-md-6">
+
+      <h2>Burgers devoured!</h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+      
+          {{!-- {{> burger-block devoured=false}} --}}
+
+           <button class="devbtn">{{burger_name}}</button>
+
+     
+        {{/if}}
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+   
+  <div class="col-md-12">
+    
+      <h2>Add a Burger</h2>
+      <form class="create-form">
+
+        <div class="form-group">
+
+
+          <input type="text" id="burgername" name="burger_name">
+        </div>
+
+        <button type="submit">Add Burger</button>
+      </form>
+     
+  </div>
+</div>

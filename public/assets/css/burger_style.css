@@ -1,0 +1,43 @@
+html {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body {
+    width: 65%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 45px;
+}
+.devbtn {
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	border-radius: 15px;
+ 	width: 50%;
+ 	margin: 0;
+ 	padding: 10px;
+ 	background-color: #FFC04C;
+
+}
+.eat-burger {
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 15px;
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+    background-color: aquamarine;
+
+}
