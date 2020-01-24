@@ -8,9 +8,7 @@ How to use:
 Click the burger to eat it and the burger will move to the burgers that have been eaten area.
 
 
-<img src="assets/img/ss1.png" width=300>
-
-<img src="./assets/img/ss1.png" width=500>
+<img src="public/assets/img/ss1.png" width=500>
 
 
 Heruko deployment
