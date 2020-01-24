@@ -1,14 +1,10 @@
-console.log('page load')
 $(function() {
-    console.log('loaded')
-    // $(document).on("click",".change-devoured", function(event) {
-    //     event.preventDefault();
 
     $(".eat-burger").on("click", function(event) {
+         event.preventDefault();
+
       var id = $(this).data("id");
       
-    //   console.log(newDev);
-
       var newDevState = {
         devoured: 1
       };
@@ -23,7 +19,6 @@ $(function() {
         }
       );
     });
-    //$(document).on("click",".create-form", function(event) {
 
      $(".create-form").on("submit", function(event){
       event.preventDefault();
@@ -42,5 +37,25 @@ $(function() {
           location.reload();
         }
       )
-    })
+    });
+
+    $("#del-burger").on("click", function(event) {
+        event.preventDefault();
+
+        var id = $(this).data("id");
+        console.log("id " + id)
+    
+        // Send the DELETE request.
+        $.ajax("/api/burgers/" + id, {
+          type: "DELETE"
+        }).then(
+          function() {
+            console.log("deleted burger", id);
+            // Reload the page to get the updated list
+            location.reload();
+          }
+        );
+      });
+    
+
 });

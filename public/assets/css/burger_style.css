@@ -6,7 +6,7 @@ html {
 }
 body {
     width: 70%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin: 0 auto;
     display: flex;
     background-color: white;
@@ -17,12 +17,12 @@ h1 {
     text-align: center;
     margin: 40px;
     font-size: 45px;
-    /* padding: 0%; */
+    color: rgb(190, 8, 8);
     margin: 10px;
 }
 .eat-burger {
  	font-size: 20px;
- 	text-align: center;
+ 	/* text-align: center; */
  	border-radius: 15px;
  	width: 30%;
  	padding: 10px;
@@ -31,7 +31,7 @@ h1 {
 }
 .devbtn {
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 15px;
     width: 30%;
     padding: 10px;

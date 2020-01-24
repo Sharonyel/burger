@@ -9,7 +9,7 @@
 <div class="row">
   <div class="col-md-6">
 
-    <h2>Add Your Burger!</h2>
+    <h2>Add Your Burger and Submit</h2>
     <form class="create-form">
       <input type="text" id="burgername" name="burger_name" placeholder="Enter A Delicious Burger">
       <button type="submit" class="addBtn">Submit</button>
@@ -19,7 +19,8 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-4">
+    <div></div>
+    <div class="col-sm-6">
 
       <h2>Click a Burger to eat it!</h2>
 
@@ -31,14 +32,19 @@
         {{/each}}
       </ul>
     </div>
-    <div class="col-md-6">
+    </div>
+    </div>
+
+    <hr>
+    <div> 
+    <div class="col-sm-6">
 
       <h2>Burgers that you have eaten!</h2>
 
       <ul>
         {{#each burgers}}
         {{#if devoured}}
-        <button class="devbtn">{{burger_name}}</button>
+        <button id="del-burger" data-id="{{id}}" class="devbtn">{{burger_name}}</button>
         {{/if}}
         {{/each}}
       </ul>
