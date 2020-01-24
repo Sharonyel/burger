@@ -4,15 +4,13 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 
 How to use:
 
-* Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+* Whenever a user submits a burger's name, the burger will display in the burgers to eat area -- waiting to be eaten.
+Click the burger to eat it and the burger will move to the burgers that have been eaten area.
 
-* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
-
-* Your app will store every burger in a database, whether devoured or not.
 
 <img src="assets/img/ss1.png" width=300>
 
-<img src="assets/img/ss1.png" width=500>
+<img src="./assets/img/ss1.png" width=500>
 
 
 Heruko deployment
