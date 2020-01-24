@@ -11,7 +11,7 @@ How to use:
 * Your app will store every burger in a database, whether devoured or not.
 
 
-<img src="/assets/img.ss1.png" width=500>
+<img src="/assets/img/ss1.png" width=500>
 
 
 Heruko deployment
