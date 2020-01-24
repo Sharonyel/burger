@@ -10,8 +10,9 @@ How to use:
 
 * Your app will store every burger in a database, whether devoured or not.
 
+<img src="assets/img/ss1.png" width=300>
 
-<img src="assets/img/ss1.png" width=500px>
+<img src="assets/img/ss1.png" width=500>
 
 
 Heruko deployment
@@ -22,7 +23,7 @@ License
 
 MIT License
 
-Copyright (c) [2019] [Sharon Yelverton]
+Copyright (c) [2020] [Sharon A. Yelverton]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
