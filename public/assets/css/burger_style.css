@@ -1,43 +1,41 @@
 html {
-    background-color:  red;
+    background-color: rgb(88, 223, 178);
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 body {
-    width: 80%;
+    width: 70%;
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
     background-color: white;
     flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 h1 {
     text-align: center;
     margin: 40px;
     font-size: 45px;
+    /* padding: 0%; */
+    margin: 10px;
 }
-.devbtn {
+.eat-burger {
  	font-size: 20px;
  	text-align: center;
-
  	border-radius: 15px;
  	width: 30%;
- 	margin: 0;
  	padding: 10px;
  	background-color: #FFC04C;
 
 }
-.eat-burger {
+.devbtn {
     font-size: 20px;
     text-align: center;
     border-radius: 15px;
     width: 30%;
-    margin: 0;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: rgba(165, 122, 42, 0.993)
 
 }
 #burgername {

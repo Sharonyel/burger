@@ -6,13 +6,12 @@
 </div>
     <h1>EAT-DA-BURGER!</h1>
 
-
 <div class="row">
   <div class="col-md-6">
 
     <h2>Add Your Burger!</h2>
     <form class="create-form">
-      <input type="text" id="burgername" name="burger_name">
+      <input type="text" id="burgername" name="burger_name" placeholder="Enter A Delicious Burger">
       <button type="submit" class="addBtn">Submit</button>
     </form>
   </div>
@@ -22,7 +21,7 @@
   <div class="row">
     <div class="col-md-4">
 
-      <h2>Burgers to be devoured!</h2>
+      <h2>Click a Burger to eat it!</h2>
 
       <ul>
         {{#each burgers}}
@@ -34,7 +33,7 @@
     </div>
     <div class="col-md-6">
 
-      <h2>Burgers devoured!</h2>
+      <h2>Burgers that you have eaten!</h2>
 
       <ul>
         {{#each burgers}}
