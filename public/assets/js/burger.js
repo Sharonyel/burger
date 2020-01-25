@@ -39,7 +39,7 @@ $(function() {
       )
     });
 
-    $("#del-burger").on("click", function(event) {
+    $(".del-burger").on("click", function(event) {
         event.preventDefault();
 
         var id = $(this).data("id");

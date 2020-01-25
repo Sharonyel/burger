@@ -20,6 +20,7 @@ var burger = {
   },
   deleteOne: function(condition, cb) {
     orm.deleteOne("burgers", condition, function(res) {
+      console.log("cond is " + condition)
       cb(res);
     });
   },

@@ -6,7 +6,6 @@ html {
 }
 body {
     width: 70%;
-    /* min-height: 100vh; */
     margin: 0 auto;
     display: flex;
     background-color: white;
@@ -15,16 +14,16 @@ body {
 }
 h1 {
     text-align: center;
-    margin: 40px;
+    /* margin: 40px; */
     font-size: 45px;
     color: rgb(190, 8, 8);
-    margin: 10px;
+    /* margin: 10px; */
 }
 .eat-burger {
  	font-size: 20px;
  	/* text-align: center; */
  	border-radius: 15px;
- 	width: 30%;
+ 	min-width: 30%;
  	padding: 10px;
  	background-color: #FFC04C;
 
@@ -33,7 +32,7 @@ h1 {
     font-size: 20px;
     /* text-align: center; */
     border-radius: 15px;
-    width: 30%;
+    min-width: 30%;
     padding: 10px;
     background-color: rgba(165, 122, 42, 0.993)
 
@@ -47,4 +46,8 @@ h1 {
     border-radius: 10px;
     font-size: 20px;
   
+}
+.col-sm-6 {
+    width: 50%;
+    display: inline-block;
 }
