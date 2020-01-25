@@ -1,5 +1,4 @@
 $(function() {
-
     $(".eat-burger").on("click", function(event) {
          event.preventDefault();
 
@@ -23,8 +22,13 @@ $(function() {
      $(".create-form").on("submit", function(event){
       event.preventDefault();
 
+
+      var str = $("#burgername").val().trim()
+   
+      const chgCase = str.charAt(0).toUpperCase() + str.substring(1);
+      
       var newBurger = {
-        burger_name: $("#burgername").val().trim()
+        burger_name: chgCase
       };
 
       $.ajax("/api/burgers", { 

@@ -3,21 +3,12 @@
   <img src="/assets/img/source.gif" class="cols=4" width="200px" id="burger-img">
 </div>
     <h1>EAT-DA-BURGER!</h1>
-    <h2>Add Your Burger and Submit</h2>
+    <h2>Add Your Burger</h2>
     <form class="create-form">
-      <input type="text" id="burgername" name="burger_name" placeholder="Enter A Delicious Burger">
+      <input type="text" id="burgername" name="burger_name" placeholder="Enter A Delicious Burger" required>
       <button type="submit" class="addBtn">Submit</button>
     </form>
-  {{!-- </div> --}}
-{{!-- </div> --}}
-<hr>
-<div class="container">
-  {{!-- <div class="row"> --}}
-   
-    <div class="col-sm-6">
-
       <h2>Click a Burger to eat it!</h2>
-
       <ul>
         {{#each burgers}}
         {{#unless devoured}}
@@ -25,11 +16,7 @@
         {{/unless}}
         {{/each}}
       </ul>
-    </div>
-    <div class="col-sm-6">
-
-      <h2>Burgers that you have eaten!</h2>
-
+      <h2>Burgers that you have eaten! (click to delete)</h2>
       <ul>
         {{#each burgers}}
         {{#if devoured}}
@@ -37,6 +24,3 @@
         {{/if}}
         {{/each}}
       </ul>
-    </div>
-
-</div>

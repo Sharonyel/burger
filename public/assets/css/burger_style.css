@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(88, 223, 178);
+    background-image: linear-gradient(to top, rgb(136, 221, 193), rgb(231, 119, 119));
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -14,40 +14,38 @@ body {
 }
 h1 {
     text-align: center;
-    /* margin: 40px; */
     font-size: 45px;
     color: rgb(190, 8, 8);
-    /* margin: 10px; */
 }
 .eat-burger {
  	font-size: 20px;
- 	/* text-align: center; */
  	border-radius: 15px;
  	min-width: 30%;
  	padding: 10px;
- 	background-color: #FFC04C;
+ 	background-color: rgb(231, 119, 119);
 
 }
 .devbtn {
     font-size: 20px;
-    /* text-align: center; */
     border-radius: 15px;
     min-width: 30%;
     padding: 10px;
-    background-color: rgba(165, 122, 42, 0.993)
+    background-color: rgb(136, 221, 193)
 
 }
+input:invalid:required {
+    background-image: linear-gradient(to right, rgb(136, 221, 193), rgb(231, 119, 119));
+  }
 #burgername {
     width: 400px;
-    height: 40px;
+    height: 35px;
     font-size: 20px;
 }
 .addBtn {
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 30px;
+    background-color: rgb(190, 8, 8);
+    color: white;
+
   
-}
-.col-sm-6 {
-    width: 50%;
-    display: inline-block;
 }
