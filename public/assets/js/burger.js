@@ -22,7 +22,6 @@ $(function() {
      $(".create-form").on("submit", function(event){
       event.preventDefault();
 
-
       var str = $("#burgername").val().trim()
    
       const chgCase = str.charAt(0).toUpperCase() + str.substring(1);
@@ -36,8 +35,6 @@ $(function() {
         data: newBurger
       }).then(function()
       {
-          console.log("Added new burger " + newBurger);
-
           location.reload();
         }
       )
@@ -60,6 +57,4 @@ $(function() {
           }
         );
       });
-    
-
 });

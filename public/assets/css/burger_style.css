@@ -2,7 +2,6 @@ html {
     background-image: linear-gradient(to top, rgb(136, 221, 193), rgb(231, 119, 119));
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 body {
     width: 70%;
@@ -23,7 +22,6 @@ h1 {
  	min-width: 30%;
  	padding: 10px;
  	background-color: rgb(231, 119, 119);
-
 }
 .devbtn {
     font-size: 20px;
@@ -46,6 +44,4 @@ input:invalid:required {
     font-size: 30px;
     background-color: rgb(190, 8, 8);
     color: white;
-
-  
 }
