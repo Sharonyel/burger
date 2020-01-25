@@ -11,7 +11,7 @@ Click the burger to eat it and the burger will move to the burgers that have bee
 <img src="public/assets/img/ss1.png" width=500>
 
 
-Heruko deployment
+Heruko deployment: https://say-eatdaburger.herokuapp.com/
 --
 
 License
