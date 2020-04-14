@@ -1,6 +1,6 @@
 # Eat Da Burger
 
-Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. This app is created with MySQL, Node, Express, Handlebars and a homemade ORM. Node and MySQL are used to query and route data, and Handlebars to generate HTML.
+Eat-Da-Burger is a restaurant app that lets users input the names of burgers they'd like to eat. This app is created with MySQL, Node, Express, Handlebars and a homemade ORM. Node and MySQL are used to query and route data, and Handlebars to generate HTML.
 
 How to use:
 
